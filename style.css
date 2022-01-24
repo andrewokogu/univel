@@ -1,14 +1,146 @@
-li {
+ol,ul {
+    list-style: none;
+  }
+#main-menu {
+    margin-left:450px;
+    /* margin-top: -20px; */
+    width: 900px;
+    font-family: "Nunito Sans";
+    font-family: nunito;
+    text-align: center;
+    font-size: 12px;
     float: left;
-    list-style: inline;
-    font-family: Tahoma;
 }
-
-li{
-    display: inline;
-    font-size: 20px;
-    padding: 15px;
+#main-menu li{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    width: 140px;
+    float: left;
+    margin-right: 2px;
+    /* border:1px solid #000; */
 }
+#main-menu a{
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    background-color: #fff;
+    /* color:#009; */
+    color:black;
+}
+#logo {
+ 
+margin-top:-63px;
+/* margin-left:-550px; */
+/* width: 900px; */
+font-family: sans-serif;
+text-align: left;
+float: left;
+overflow: hidden;
+top: 0px;
+right: 60px;
+margin-left: 100px;
+/* position: fixed; */
+/* left: calc(50% - 80px); */
+/* z-index: 10; */
+}
+#main-menu a:hover
+{
+/* background-color:#7ce5e6; */
+color:#7ce5e6;
+}
+#logo :hover
+{
+/* background-color:#7ce5e6; */
+color:#7ce5e6;
+}
+#body-text h2 p
+{
+font-family: sans-serif;
+text-align: center;
+color: black;
+margin-top: 250px;
+margin-right: 100px;
+margin-left: 0px;
+/* #comment out to move to the left */
+font-size: 20px;
+/* margin-right: 150px; */
+margin-bottom: 20px;
+/* line-height: 10px; */
+}
+#body-text h2
+{
+
+color: black;
+
+font-size: 20px;
+margin-left: 100px;
+/* margin-right: 150px; */
+}
+#body-text p
+{
+
+color: black;
+
+font-size: 17px;
+margin-left: 100px;
+/* margin-right: 150px; */
+}
+/* line-height: 10px; */
+.nav-bar {
+    overflow: hidden;
+    /* background-color: #333; */
+    position: absolute; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    
+}
+#illustration {
+    /* margin-left: 250px; */
+     margin-right: 120px;
+   
+    margin-top: -260px;
+    /* width: 380px; */
+    font-family: sans-serif;
+    text-align: right;
+    float: right; 
+    /* width: 50%; */
+    
+    
+    
+
+}
+#button-start :hover
+{
+    color: white;
+    background-color: black;
+    transition: left;
+    border:1px solid #000;
+}
+#button-start button
+{
+    /* display: inline-block; */
+    background-color: #10e1bb;
+    color: white;
+    margin-left: 100px;
+
+    /* padding: 15px 32px; */
+}
+/* body
+{
+    width: 100%;
+    
+
+} */
+/* .container
+{
+    width: min-content;
+} */
 
 
-
+/* .button-start ul{
+        background-color: #4CAF50; /* Green */
+        /* color: white;
+        font-size: 20px;
+      } */ 
+  
